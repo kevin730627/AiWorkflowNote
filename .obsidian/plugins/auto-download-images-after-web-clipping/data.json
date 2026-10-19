@@ -1,0 +1,11 @@
+{
+  "watchFolders": "Clippings\nraw",
+  "delayMs": 2000,
+  "language": "auto",
+  "attachmentPathMode": "obsidian",
+  "customAttachmentFolder": "attachments",
+  "customTemplateFolder": "_global/assets/{date:YYYY-MM}",
+  "imageNameTemplate": "{notename}-{index:1}",
+  "keepOriginalNoteName": false,
+  "enableContextMenu": false
+}
