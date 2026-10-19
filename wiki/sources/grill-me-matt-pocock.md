@@ -15,7 +15,7 @@ url: https://www.youtube.com/watch?v=aR97E7aKEgg
 # (3011) 700 萬人下載的 grill-me，Matt Pocock 到底寫了什麼？
 
 ## 一句話摘要
-解析 TypeScript 專家 [[Matt Pocock]] 所開源的高人氣 AI 開發 Skill 工具集，探討其如何透過極簡模組化設計、反向拷問機制、TDD 防作弊與深模組架構，將軟體工程實踐融入提示詞來有效駕馭 AI。
+解析 TypeScript 專家 [[Matt Pocock]] 所開源的高人氣 AI 開發 Skill 工具集，探討其如何透過極簡模組化設計、反向拷問機制、[[TDD]] 防作弊與深模組架構，將軟體工程實踐融入提示詞來有效駕馭 AI。
 
 ## 重點
 - **Vibe Coding 的風險與控制隨機性**：隨意將模糊想法交由 AI 開發等於將數百個微觀決策外包，AI 往往寫出難以維護的架構。開發的核心挑戰是控制 AI 的隨機性。
@@ -23,7 +23,7 @@ url: https://www.youtube.com/watch?v=aR97E7aKEgg
   1. `/grill-me`：僅 5 行 Prompt，讓 AI 順著決策樹無情拷問人類盲點，一次一題且附帶建議，未達成共識前嚴格禁止動工寫 code。
   2. `/to-spec`：將討論共識凝結為規格書，嚴格禁止寫入具體程式碼，以避免日後規格與實作脫節，過期 code 混淆 AI。
   3. `/to-tickets`：強制按「使用者可見功能」垂直切分任務（包含完整 DB、邏輯、畫面），而非按技術分工，確保每一步皆能立即由人類驗證。
-  4. `/implement` 與 TDD：先寫測試至紅燈，再寫程式轉綠燈，徹底鎖死 AI 偽造測試以交差的作弊空間。
+  4. `/implement` 與 [[TDD]]：先寫測試至紅燈，再寫程式轉綠燈，徹底鎖死 AI 偽造測試以交差的作弊空間。
   5. `Code Review`：啟動獨立乾淨的 session，以《Refactoring》經典壞味道（如 *Shotgun Surgery*、*Feature Envy*、*Data Clumps*）作為具體檢查依據。
 - **[[Skill 設計原則]]（`writing-great-skills`）**：
   - **Pruning（修剪）**：刪除冗言贅字與模型已知的多餘指示。
@@ -43,4 +43,4 @@ url: https://www.youtube.com/watch?v=aR97E7aKEgg
 
 ## 提及的實體與概念
 - 實體：[[Matt Pocock]]、[[Superpowers]]
-- 概念：[[grill-me]]、[[深模組與淺模組]]、[[Skill 設計原則]]
+- 概念：[[grill-me]]、[[深模組與淺模組]]、[[Skill 設計原則]]、[[TDD]]
